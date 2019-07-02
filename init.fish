@@ -9,3 +9,5 @@ set -g platformio_prefix_full platformio
 
 # Default prefix
 set -g platformio_prefix $platformio_prefix_short
+
+echo "Platformio LOADED"
