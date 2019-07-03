@@ -9,6 +9,8 @@
 
 <br/>
 
+PlatformIO autocompletions for the fish shell
+
 
 ## Install
 
@@ -16,6 +18,7 @@
 $ omf install platformio
 ```
 
+Make sure that you have platformio's CLI properly installed, see [here][platformioinstall] for instructions.
 
 ## Usage
 
@@ -23,15 +26,26 @@ $ omf install platformio
 $ platformio
 ```
 
+Or
+
+```fish
+$ pio
+```
+
+## Notes
+
+If at first you get no completions, just run `platformio` once for it to load them.
 
 # License
 
-[MIT][mit] © [Yuri-M-Dias][author] et [al][contributors]
+[MIT][mit] © [Yuri-M-Dias][author]
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/plugin-platformio/graphs/contributors
+[author]:         https://github.com/Yuri-M-Dias
+[contributors]:   https://github.com/Yuri-M-Dias/omf-platformio/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
+[platformioinstall]: https://docs.platformio.org/en/latest/installation.html
+
